@@ -26,6 +26,11 @@ body {
 
 
 
+
+
+
+
+
 header {
     background-color: rgba(10, 10, 10, 0.95);
     padding: 1.5rem 5%;
@@ -85,6 +90,11 @@ header {
 
 
 
+
+
+
+
+
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1920&q=80');
@@ -120,6 +130,11 @@ header {
 .btn-main:hover {
     transform: scale(1.05);
 }
+
+
+
+
+
 
 
 
@@ -178,3 +193,23 @@ header {
     display: block;
     margin-bottom: 1rem;
 }
+
+.btn-agregar {
+    background-color: transparent;
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn-agregar:hover {
+    background-color: var(--blanco);
+    color: var(--negro-fondo);
+}
+
+
+
+
+
