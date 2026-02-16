@@ -1,0 +1,22 @@
+:root {
+    --oro: #D4AF37;           
+    --negro-fondo: #0a0a0a;   
+    --negro-suave: #1c1c1c;   
+    --blanco: #ffffff;
+    --gris-texto: #cccccc;
+    --fuente-titulo: 'Playfair Display', serif; 
+    --fuente-texto: 'Poppins', sans-serif;      
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--negro-fondo);
+    color: var(--blanco);
+    font-family: var(--fuente-texto);
+    line-height: 1.6;
+}
