@@ -20,3 +20,64 @@ body {
     font-family: var(--fuente-texto);
     line-height: 1.6;
 }
+
+
+
+
+
+
+header {
+    background-color: rgba(10, 10, 10, 0.95);
+    padding: 1.5rem 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--fuente-titulo);
+    font-size: 2rem;
+    color: var(--oro);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight: 300;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--oro);
+}
+
+.cart-icon button {
+    background: transparent;
+    border: 1px solid var(--oro);
+    color: var(--oro);
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cart-icon button:hover {
+    background: var(--oro);
+    color: var(--negro-fondo);
+} 
