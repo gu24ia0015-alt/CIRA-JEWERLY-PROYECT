@@ -1,4 +1,4 @@
-
+/*1*/
 :root {
     --oro: #D4AF37;           
     --negro-fondo: #0a0a0a;   
@@ -23,7 +23,7 @@ body {
 }
 
 
-
+/*2*/
 
 header {
     background-color: rgba(10, 10, 10, 0.95);
@@ -84,7 +84,7 @@ header {
 
 
 
-
+/*3*/
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1920&q=80');
@@ -127,7 +127,43 @@ header {
 
 
 
+/* ESTILOS DE LOS FILTROS */
+.filtros-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap; 
+}
 
+.filtro-btn {
+    background: transparent;
+    border: 1px solid var(--gris-texto);
+    color: var(--gris-texto);
+    padding: 8px 25px;
+    border-radius: 50px; 
+    cursor: pointer;
+    font-family: var(--fuente-texto);
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.filtro-btn:hover {
+    border-color: var(--oro);
+    color: var(--oro);
+}
+
+
+.filtro-btn.active {
+    background-color: var(--oro);
+    color: var(--negro-fondo);
+    border-color: var(--oro);
+    font-weight: bold;
+}
+
+
+
+/* 4. */
 #catalogo {
     padding: 5rem 10%;
 }
@@ -265,7 +301,7 @@ footer {
     padding: 2rem;
     border-radius: 8px;
     border: 1px solid var(--oro);
-    display: inline-block; /* Para que no ocupe todo el ancho */
+    display: inline-block;
     width: 100%;
     max-width: 600px;
 }
