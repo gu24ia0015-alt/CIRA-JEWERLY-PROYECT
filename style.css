@@ -1,3 +1,4 @@
+
 :root {
     --oro: #D4AF37;           
     --negro-fondo: #0a0a0a;   
@@ -24,13 +25,6 @@ body {
 
 
 
-
-
-
-
-
-
-
 header {
     background-color: rgba(10, 10, 10, 0.95);
     padding: 1.5rem 5%;
@@ -39,7 +33,6 @@ header {
     z-index: 100;
     border-bottom: 1px solid #333;
 }
-
 
 .navbar {
     display: flex;
@@ -85,10 +78,7 @@ header {
 .cart-icon button:hover {
     background: var(--oro);
     color: var(--negro-fondo);
-} 
-
-
-
+}
 
 
 
@@ -105,6 +95,7 @@ header {
     justify-content: center;
     text-align: center;
 }
+
 .hero h1 {
     font-family: var(--fuente-titulo);
     font-size: 4rem;
@@ -117,6 +108,7 @@ header {
     color: var(--gris-texto);
     margin-bottom: 2rem;
 }
+
 .btn-main {
     padding: 12px 30px;
     background-color: var(--oro);
@@ -125,14 +117,12 @@ header {
     font-weight: bold;
     border-radius: 2px;
     transition: transform 0.3s;
+ 
 }
 
 .btn-main:hover {
     transform: scale(1.05);
 }
-
-
-
 
 
 
@@ -155,6 +145,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
 }
+
 .card {
     background-color: var(--negro-suave);
     border: 1px solid #333;
@@ -174,6 +165,7 @@ header {
     height: 250px;
     object-fit: cover;
 }
+
 
 .card-info {
     padding: 1.5rem;
@@ -213,3 +205,92 @@ header {
 
 
 
+.registro-section {
+    background-color: var(--negro-suave);
+    padding: 4rem 10%;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.registro-form input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    background: transparent;
+    border: 1px solid #555;
+    color: var(--blanco);
+}
+
+.btn-submit {
+    padding: 10px 30px;
+    background-color: var(--oro);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #333;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+
+.about-section {
+    padding: 4rem 10%;
+    background-color: var(--negro-fondo);
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.about-content h2 {
+    font-family: var(--fuente-titulo);
+    color: var(--oro);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.1rem;
+    color: var(--gris-texto);
+}
+
+.puntos-entrega {
+    background-color: var(--negro-suave);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--oro);
+    display: inline-block; /* Para que no ocupe todo el ancho */
+    width: 100%;
+    max-width: 600px;
+}
+
+.puntos-entrega h3 {
+    color: var(--blanco);
+    margin-bottom: 1.5rem;
+    font-family: var(--fuente-titulo);
+}
+
+.puntos-entrega ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.puntos-entrega li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: var(--gris-texto);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.puntos-entrega strong {
+    color: var(--oro);
+}
