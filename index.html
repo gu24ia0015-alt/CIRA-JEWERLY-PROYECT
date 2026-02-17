@@ -40,15 +40,34 @@
                     <h3>📍 Puntos de Entrega en Aguascalientes</h3>
                     <ul>
                         <li>🏛️ <strong>UAA</strong> </li>
-                        <li>🛍️ <strong>Velaria Mall</strong> (Entrada Principal)</li>
-                        <li>🏬 <strong>La Global</strong> (Av.independencia)</li>
+                        <li>🛍️ <strong>Velaria Mall</strong> </li>
+                        <li>🏬 <strong>Global University</strong></li>
                     </ul>
+                    
+                    <div class="mapa-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.5646873919293!2d-102.31487368538722!3d21.91298918552765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef1da1623851%3A0x446d16556557876a!2sUniversidad%20Aut%C3%B3noma%20de%20Aguascalientes!5e0!3m2!1ses!2smx!4v1708450000000!5m2!1ses!2smx" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
                 </div>
             </div>
         </section>
 
         <section id="catalogo">
             <h2 class="section-title">Nuestra Colección</h2>
+            <div class="filtros-container">
+                <button class="filtro-btn active" onclick="filtrarProductos('todos')">Todo</button>
+                <button class="filtro-btn" onclick="filtrarProductos('anillos')">Anillos</button>
+                <button class="filtro-btn" onclick="filtrarProductos('collares')">Collares</button>
+                <button class="filtro-btn" onclick="filtrarProductos('pulseras')">Pulseras</button>
+            </div>
             <div id="contenedor-joyas" class="productos-grid">
                 </div>
         </section>
