@@ -46,3 +46,15 @@ function cargarProductos() {
         contenedorJoyas.appendChild(tarjeta);
     });
 }
+
+
+
+
+function agregarAlCarrito(nombre) {
+    console.log(`Producto agregado: ${nombre}`);
+    alert(`Has agregado "${nombre}" a tu carrito.`);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    cargarProductos();
+});
