@@ -294,3 +294,17 @@ footer {
 .puntos-entrega strong {
     color: var(--oro);
 }
+
+
+
+.mapa-container {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden; 
+    border: 1px solid #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.mapa-container iframe {
+    display: block; 
+}
